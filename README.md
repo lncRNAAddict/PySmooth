@@ -2,6 +2,8 @@
 
 ### Input File format
 
+The First row is the header.
+
 The genotype file MUST have the following columns:
 
 - Column 1: chromosome
