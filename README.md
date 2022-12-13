@@ -50,4 +50,6 @@ For each chromosome, PySmooth Generates the following outputs.
 `python run_smooth.py -i my_genotype_file.csv -o my_output -c chr1,chr2,chr3 -l 0.80 -u 0.98 -g 0.02`
 
 
+## Running `ImputeMissing.py`
+
 
