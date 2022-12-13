@@ -13,4 +13,8 @@ The genotype file MUST have the following columns:
 - Column 5: Alternate allele if known or blank cell.
 - Column 6 and beyond: Genotype code for the individuals. Four codes can be used. A: parent 1 homozygous, B: parent2 homozygous, H: heterozygous, U: missing data.
 
+### Running PySmooth
 
+PySmooth takes the following arguments
+
+- -i
