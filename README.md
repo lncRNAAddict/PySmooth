@@ -33,3 +33,13 @@ For each chromosome, PySmooth Generates the following outputs.
 - Heatmap
 - Singleton statistics
 - Singleton figures 
+
+### Running PySmooth
+
+`python run_smooth.py -i my_genotype_file.csv`
+
+
+`python run_smooth.py -i my_genotype_file.csv -o my_output -c chr1,chr2,chr3 -l 0.80 -u 0.98 -g 0.02`
+
+
+
