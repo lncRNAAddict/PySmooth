@@ -17,4 +17,4 @@ The genotype file MUST have the following columns:
 
 PySmooth takes the following arguments
 
-- -i
+- `-i` or `--input`
