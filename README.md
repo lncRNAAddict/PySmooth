@@ -19,7 +19,8 @@ PySmooth takes the following arguments
 
 - `-i` or `--input`: Name of the input genotype file. This MUST be provided
 - '-o' or '--output': Prefix to name of outpur files to be generated. If not provided, default is `test`
-- `-c`, `--chr`: list of chromosome names to perform analysis on. Names should be separated by comma (e.g `chr1,chr2,chr3`). Default is to run through all the chromosomes in the genotype file.
-- `-l`,`--lower`
-- `-u`,`--upper`
-- `-g`,`--gap`
+- `-c` or `--chr`: list of chromosome names to perform analysis on. Names should be separated by comma (e.g `chr1,chr2,chr3`). Default is to run through all the chromosomes in the genotype file.
+- `-l` or `--lower`: Lowest threshold for identifying singletons. Default is 0.70
+- `-u`or `--upper`: Highest threshold for identifying singletons. Default is 0.98.
+- `-g` or `--gap`: PySmooth iteratively identifies singletons starting with the highest threshold till the lowest threshold. This parameter is used to decreased the threshold at each iteration. Default is 0.02.
+
