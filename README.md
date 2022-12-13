@@ -28,10 +28,12 @@ PySmooth takes the following arguments
 
 For each chromosome, PySmooth Generates the following outputs.
 
-
-- statistics file that contains `%` of homozygous, heterozygous calls for each individual for the raw genoytpe file as well as after removing singletons.
-- Heatmap images that displays the genotype file before and after removing singletons. Singletons are marke missing.
-- Singleton statistics
+- One statistics file that contains `%` of homozygous, heterozygous calls for each individual for the raw genoytpe file.
+- One statistics file that contains `%` of homozygous, heterozygous calls for each individual after removing singletons from the raw genoytpe file. Singletons are marked missing.
+- One summary statistics File that indicate how many singletons were detected. 
+- One Heatmap image that displays genotype calls for the raw genoytpe file. 
+- One Heatmap image that displays genotype calls for after removing singletons from the raw genoytpe file. 
+- new Genotype File with singletons marked as missing. Singletons are marked as 'U'.
 
 ### Running PySmooth
 
