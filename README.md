@@ -29,6 +29,7 @@ PySmooth takes the following arguments
 - `-l` or `--lower`: Lowest threshold for identifying singletons. Default is 0.70
 - `-u`or `--upper`: Highest threshold for identifying singletons. Default is 0.98.
 - `-g` or `--gap`: PySmooth iteratively identifies singletons starting with the highest threshold till the lowest threshold. This parameter is used to decreased the threshold at each iteration. Default is 0.02.
+- `-k` : number of nearest neighbors to be used to assign correct genotype to singleton or missing item.
 
 ### Outputs
 
