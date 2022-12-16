@@ -1,7 +1,9 @@
 
 # PySmooth
 
-Pysmooth has one main functionality
+`PySmooth` is a python implementation of SMOOTH algorithm. Original SMOOTH was written in PASCAL with several limitations.
+
+`PySmooth` contains one main functionality 
 
 - `run_smooth.py`: Detect markers which are singletons in the genotype file and marks them as singletons. Correct the missing and singleton markers using k-nearest neighbor.
 
@@ -15,18 +17,18 @@ Pysmooth has one main functionality
 
 ## Running `run_smooth.py`
 
-### Input File format
+### Input Genotype File format
 
-The First row is the header.
+The First row is the header. Each row represents a unique marker.
 
 The genotype file MUST have the following columns:
 
 - Column 1: Chromosome name.
-- Column 2: Genomic Position of the marker in the chromosome. For each chromosome,column2 MUST already be sorted in ascending order.
-- Column 3: identification number of the marker location.
-- Column 4: Reference allele in the reference or can be left blank cell.
+- Column 2: Genomic Position of the marker in the chromosome. For each chromosome,column 2 MUST already be sorted in ascending order.
+- Column 3: Identification id of the marker location. 
+- Column 4: Reference allele in the reference genome if known or can be left blank cell.
 - Column 5: Alternate allele if known or blank cell.
-- Column 6 and beyond: Genotype code for the individuals. Four codes can be used. A: parent 1 homozygous, B: parent 2 homozygous, H: heterozygous, U: missing data.
+- Column 6 and beyond: Genotype code for the individuals in the marker location. Four codes can be used. A: parent 1 homozygous, B: parent 2 homozygous, H: heterozygous, U: missing data.
 
 ### Running PySmooth
 
