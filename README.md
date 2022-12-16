@@ -1,8 +1,17 @@
+
 # PySmooth
 
 Pysmooth has one main functionality
 
 - `run_smooth.py`: Detect markers which are singletons in the genotype file and marks them as singletons. Correct the missing and singleton markers using k-nearest neighbor.
+
+## Dependencies
+
+- PySmooth has been tested with Python 3.8.12 version. It should work with Python >= 3.0 version.
+- `numpy`
+- `Pandas`
+- `Sklearn`
+- `matplotlib`
 
 ## Running `run_smooth.py`
 
@@ -36,6 +45,7 @@ Type the following command in the `terminal`, or `command prompt`, or  `anaconda
 Shown below are two examples of running `PySmooth`.
 
 `python run_smooth.py -i my_genotype_file.csv`
+
 `python run_smooth.py -i my_genotype_file.csv -o my_output -c chr1,chr2,chr3 -l 0.80 -u 0.98 -g 0.02`
 
 ### Outputs
