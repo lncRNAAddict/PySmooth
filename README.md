@@ -63,6 +63,5 @@ For each chromosome, PySmooth Generates the following outputs.
 
 
 
-## Running `ImputeMissing.py`
 
 
