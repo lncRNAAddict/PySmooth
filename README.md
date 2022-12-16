@@ -52,7 +52,7 @@ Shown below are two examples of running `PySmooth`.
 
 For each chromosome, PySmooth Generates the following outputs.
 
-- One statistics file that contains `%` of homozygous, heterozygous calls for each individual for the raw genoytpe file.
+- `<output>_<chr>.stats.csv`, `<output>_<chr>.stats.csv`One statistics file that contains `%` of homozygous, heterozygous calls for each individual for the raw genoytpe file.
 - One statistics file that contains `%` of homozygous, heterozygous calls for each individual after removing singletons from the raw genoytpe file. Singletons are marked missing.
 - One summary statistics File that indicate how many singletons were detected. 
 - One Heatmap image that displays genotype calls for the raw genoytpe file. 
