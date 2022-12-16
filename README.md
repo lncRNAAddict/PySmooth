@@ -2,7 +2,7 @@
 
 Pysmooth has one main functionality
 
-- `run_smooth.py`: Detect singletons in the genotype file and marks them as missing.
+- `run_smooth.py`: Detect markers which are singletons in the genotype file and marks them as singletons. Correct the missing and singleton markers using k-nearest neighbor.
 
 ## Running `run_smooth.py`
 
