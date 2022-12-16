@@ -31,6 +31,13 @@ PySmooth takes the following arguments
 - `-g` or `--gap`: PySmooth iteratively identifies singletons starting with the highest threshold till the lowest threshold. This parameter is used to decreased the threshold at each iteration. Default is 0.02.
 - `-k` : number of nearest neighbors to be used to assign correct genotype to singleton or missing item. Default value is 30.
 
+Type the following command in the `terminal`, or `command prompt`, or  `anaconda command prompt` depending on your python installation or OS.
+
+Shown below are two examples of running `PySmooth`.
+
+`python run_smooth.py -i my_genotype_file.csv`
+`python run_smooth.py -i my_genotype_file.csv -o my_output -c chr1,chr2,chr3 -l 0.80 -u 0.98 -g 0.02`
+
 ### Outputs
 
 For each chromosome, PySmooth Generates the following outputs.
@@ -42,12 +49,8 @@ For each chromosome, PySmooth Generates the following outputs.
 - One Heatmap image that displays genotype calls for after removing singletons from the raw genoytpe file. 
 - new Genotype File with singletons marked as missing. Singletons are marked as 'U'.
 
-### Running PySmooth
-
-`python run_smooth.py -i my_genotype_file.csv`
 
 
-`python run_smooth.py -i my_genotype_file.csv -o my_output -c chr1,chr2,chr3 -l 0.80 -u 0.98 -g 0.02`
 
 
 ## Running `ImputeMissing.py`
