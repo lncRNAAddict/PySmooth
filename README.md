@@ -1,9 +1,8 @@
 # PySmooth
 
-Pysmooth has two main functionalities:
+Pysmooth has one main functionality
 
 - `run_smooth.py`: Detect singletons in the genotype file and marks them as missing.
-- `ImputeMissing.py`: Assigns the correct genotype call to missing genotype calls.
 
 ## Running `run_smooth.py`
 
