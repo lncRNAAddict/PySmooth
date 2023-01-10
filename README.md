@@ -30,7 +30,7 @@ The genotype file MUST have the following columns:
 - Column 5: Alternate allele if known or blank cell.
 - Column 6 and beyond: Genotype code for the individuals in the marker location. Four codes can be used. A: parent 1 homozygous, B: parent 2 homozygous, H: heterozygous, U: missing data.
 
-An screeshot of a portion of an example input file is shown below
+A screeshot of a portion of an example input file is shown below
 
 ![Example Input Genotype File](https://github.com/lncRNAAddict/PySmooth/blob/main/example/GenotypeInput.PNG)
 
