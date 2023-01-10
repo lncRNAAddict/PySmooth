@@ -64,9 +64,13 @@ First, change working directory to the folder where the `PySmooth` scripts are s
 Once the working directory is set, shown below are two examples of running `PySmooth`.
 
 `python run_smooth.py -i <path to the genotype file>/my_genotype_file.csv`
+
 The code above will generate all output files with prefix `test` in the folder `<path to the genotype file>`
   
 `python run_smooth.py -i <path to the genotype file>/my_genotype_file.csv -o <path to output folder>/my_output -c chr1,chr2,chr3 -l 0.80 -u 0.98 -g 0.02`
+
+The code above will generate all output files with prefix `my_output` in the folder `<<path to output folder>`
+
 
 ### Outputs
 
