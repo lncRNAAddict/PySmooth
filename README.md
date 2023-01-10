@@ -10,7 +10,7 @@
 
 ## Installation and Dependencies
 
-- PySmooth has been tested with Python 3.8.12 version. It should work with Python >= 3.0 version. We recommend installing the anaconda python distributon. Download anaconda python distribution from https://www.anaconda.com/products/distribution and install following the instructions provided.
+PySmooth has been tested with Python 3.8.12 version. It should work with Python >= 3.0 version. We recommend installing the anaconda python distributon. Download anaconda python distribution from https://www.anaconda.com/products/distribution and install following the instructions provided.
 
 PySmooth depends on the following python libraries. These libraries are already included in the anaconda distribution. Therefore, you do not need to install them.
 
@@ -18,6 +18,13 @@ PySmooth depends on the following python libraries. These libraries are already 
 - `Pandas`
 - `Sklearn`
 - `matplotlib`
+
+You can simply download the following scripts and put them in a single folder.
+
+- `utilities.py`
+- `smooth.py`
+- `ImputeMissingGenotype.py`
+- `run_smooth.py`
 
 ## Running `run_smooth.py`
 
