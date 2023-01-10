@@ -65,8 +65,9 @@ For each chromosome, PySmooth Generates the following outputs.
 - One Heatmap image that displays genotype calls for after removing singletons from the raw genoytpe file. 
 - new Genotype File with singletons marked as missing. Singletons are marked as 'U'.
 
-![alt text](https://github.com/lncRNAAddict/PySmooth/blob/main/example/crosspoints_in_chr1.heatmap.png)
+![alt text](https://github.com/lncRNAAddict/PySmooth/blob/main/example/Slide2.PNG)
 
+![alt text](https://github.com/lncRNAAddict/PySmooth/blob/main/example/Slide3.PNG)
 
 
 
