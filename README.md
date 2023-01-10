@@ -59,7 +59,7 @@ Shown below are two examples of running `PySmooth`.
 For each chromosome, PySmooth Generates the following outputs.
 
 - Three csv files: `<output>_<chr>.stats.csv`, `<output>_<chr>_singletons_stats.csv`, and `<output>_<chr>_imputed_stats.csv` that contain `%` of homozygous, heterozygous calls for each individual for the raw genoytpe file, after singleton detection, and after error correction. Examples are shown below.
-- 
+
 - Three bar plot png files: `<output>_<chr>.stats.png`, `<output>_<chr>_singletons_stats.png`, and `<output>_<chr>_imputed_stats.png` bar plot files that contains `%` of homozygous, heterozygous calls for each individual for the raw genoytpe file, after singleton detection, and after error correction, respectively. Example images are shown below.
 
 ![alt text](https://github.com/lncRNAAddict/PySmooth/blob/main/example/Slide3.PNG)
