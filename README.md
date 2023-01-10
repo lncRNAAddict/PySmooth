@@ -61,7 +61,7 @@ PySmooth takes the following arguments
 
 First, change working directory to the folder where the `PySmooth` scripts are stored. You can do that by simply typeing the following command in the `terminal`, or `command prompt`, or  `anaconda command prompt` depending on your python installation or OS.
 
-`cd <path to where PySmooth scripts are stored`
+`cd <path to where PySmooth scripts are stored>`
 
 Once the working directory is set, shown below are two examples of running `PySmooth`.
 
