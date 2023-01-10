@@ -1,11 +1,7 @@
 
 # PySmooth
 
-`PySmooth` is a python implementation of SMOOTH algorithm. Original SMOOTH was written in PASCAL with several limitations.
-
-`PySmooth` contains one main functionality 
-
-- `run_smooth.py`: Detect markers which are singletons in the genotype file and marks them as singletons. Correct the missing and singleton markers using k-nearest neighbor.
+`PySmooth` which offers an easy-to-use command line interface. `PySmooth` implements the original approach of SMOOTH with minor modifications to identify singletons but solves the drawbacks mentioned above. `PySmooth` analyzes an input genotype file in three steps. First, it reads the input genotype file and generates summary statistics and visualization files. It assigns singleton scores to each marker locus based on the algorithm described in `SMOOTH` with some minor modifications to allow genotype files containing four genoptype code. Thirdly, using K-nearest neighbor approach, the missing and singletons are assigned a genotype. After the second and third stage, summary and visualization files are generated.
 
 
 ## Installation and Dependencies
