@@ -19,12 +19,14 @@ PySmooth depends on the following python libraries. These libraries are already 
 - `Sklearn`
 - `matplotlib`
 
-You can simply download the following scripts from `PySmooth` GitHub page and put them in a single folder. `PySmooth` can be executed by running the script `run_smooth.py`
+You can simply download the following scripts from `PySmooth` GitHub page and put them in a single folder. 
 
 - `utilities.py`
 - `smooth.py`
 - `ImputeMissingGenotype.py`
 - `run_smooth.py`
+
+`PySmooth` can be executed by running the script `run_smooth.py`
 
 ## Running `run_smooth.py`
 
