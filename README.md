@@ -69,7 +69,7 @@ The code above will analyze for each chromosome detected and generate all output
   
 `python run_smooth.py -i <path to the genotype file>/my_genotype_file.csv -o <path to output folder>/my_output -c chr1,chr2,chr3 -l 0.80 -u 0.98 -g 0.02`
 
-The code above will analyze generate all output files with prefix `my_output` in the folder `<path to output folder>`
+The code above will analyze for chromosomes `chr1, chr2, and chr3`and generate all output files with prefix `my_output` in the folder `<path to output folder>`.
 
 
 ### Outputs
