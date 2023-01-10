@@ -57,13 +57,16 @@ PySmooth takes the following arguments
 - `-g` or `--gap`: PySmooth iteratively identifies singletons starting with the highest threshold till the lowest threshold. This parameter is used to decreased the threshold at each iteration. Default is 0.02.
 - `-k` : number of nearest neighbors to be used to assign correct genotype to singleton or missing item. Default value is 30.
 
-Type the following command in the `terminal`, or `command prompt`, or  `anaconda command prompt` depending on your python installation or OS.
+First, change working directory to the folder where the `PySmooth` scripts are stored. You can do that by simply typeing the following command in the `terminal`, or `command prompt`, or  `anaconda command prompt` depending on your python installation or OS.
 
-Shown below are two examples of running `PySmooth`.
+`cd <path to where PySmooth scripts are stored`
 
-`python run_smooth.py -i example/my_genotype_file.csv`
+Once the working directory is set, shown below are two examples of running `PySmooth`.
 
-`python run_smooth.py -i example/my_genotype_file.csv -o example/my_output -c chr1,chr2,chr3 -l 0.80 -u 0.98 -g 0.02`
+`python run_smooth.py -i <path to the genotype file>/my_genotype_file.csv`
+The code above will generate all output files with prefix `test` in the folder `<path to the genotype file>`
+  
+`python run_smooth.py -i <path to the genotype file>/my_genotype_file.csv -o <path to output folder>/my_output -c chr1,chr2,chr3 -l 0.80 -u 0.98 -g 0.02`
 
 ### Outputs
 
