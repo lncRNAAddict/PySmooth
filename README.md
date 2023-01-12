@@ -1,7 +1,7 @@
 
 # PySmooth
 
-`PySmooth` which offers an easy-to-use command line interface. `PySmooth` implements the original approach of SMOOTH with minor modifications to identify singletons but solves the drawbacks mentioned above. `PySmooth` analyzes an input genotype file in three steps. First, it reads the input genotype file and generates summary statistics and visualization files. It assigns singleton scores to each marker locus based on the algorithm described in `SMOOTH` with some minor modifications to allow genotype files containing four genoptype code. Thirdly, using K-nearest neighbor approach, the missing and singletons are assigned a genotype. After the second and third stage, summary and visualization files are generated.
+`PySmooth` which offers an easy-to-use command line interface. `PySmooth` implements the original approach of SMOOTH (van Os,H. et al. (2005)) with minor modifications to identify singletons but solves the drawbacks mentioned above. `PySmooth` analyzes an input genotype file in three steps. First, it reads the input genotype file and generates summary statistics and visualization files. It assigns singleton scores to each marker locus based on the algorithm described in `SMOOTH` with some minor modifications to allow genotype files containing four genoptype code. Thirdly, using K-nearest neighbor approach, the missing and singletons are assigned a genotype. After the second and third stage, summary and visualization files are generated.
 
 
 ## Installation and Dependencies
@@ -89,5 +89,6 @@ For each chromosome, PySmooth Generates the following outputs.
 
 
 
-
+### References
+van Os,H. et al. (2005) SMOOTH: a statistical method for successful removal of genotyping errors from high-density genetic linkage data. Theor. Appl. Genet., 112, 187–94.
 
