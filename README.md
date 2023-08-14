@@ -73,7 +73,7 @@ The code above will analyze for chromosome `chr1`and generate all output files w
 
 For each chromosome, PySmooth Generates the following outputs.
 
-- Three summary csv files: `<output>_<chr>.stats.csv`, `<output>_<chr>_singletons_stats.csv`, and `<output>_<chr>_imputed_stats.csv` that contain `%` of homozygous, heterozygous calls for each individual for the raw genoytpe file, after singleton detection, and after error correction. An example file for the `<output>_<chr>_singletons_stats.csv` is shown below. 
+- Three summary csv files: `<output>_<chr>.stats.csv`, `<output>_<chr>_singletons_stats.csv`, and `<output>_<chr>_imputed_stats.csv` that contain `%` of homozygous, heterozygous calls for each individual for the raw genoytpe file, after singleton detection, and after error correction. An example file for the `<output>_<chr>_singletons_stats.csv` is shown below. The files not only indicate the number of singletons detected in each sample but also the fraction from each category of genotype call detected as singletons.
 
   ![alt text](https://github.com/lncRNAAddict/PySmooth/blob/main/example/singleton_stats.JPG)
 
