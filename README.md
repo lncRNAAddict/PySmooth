@@ -63,7 +63,7 @@ Once the working directory is set, shown below are two examples of running `PySm
 
 `python run_smooth.py -i <path to the genotype file>/my_genotype_file.csv`
 
-In the `example` folder, there is an example genotype input file called `my_genotype_file.csv`
+- In the `example` folder, there is an example genotype input file called `my_genotype_file.csv`
 
 The code above will analyze  each chromosome detected and generate all output files with prefix `test` in the folder `<path to the genotype file>`
   
