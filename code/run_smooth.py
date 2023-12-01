@@ -78,20 +78,20 @@ for chromosome in chr_list:
     plt.savefig(output_file+".heatmap.png")
 
 
-print("\n=======================================================================\n")
+    print("\n=======================================================================\n")
 
-'''
-Remove singletons, report statistics and plots and heatmaps
-'''
-print("Identifying Singletons\n")
-print("Missing values and Singletons will be imputed\n")
+    '''
+    Remove singletons, report statistics and plots and heatmaps
+    '''
+    print("Identifying Singletons\n")
+    print("Missing values and Singletons will be imputed\n")
 
 
     
-for chromosome in chr_list:
+#for chromosome in chr_list:
     
-    print("doing " + chromosome)
-    print("\n")
+#    print("doing " + chromosome)
+#    print("\n")
     input_file = genotype_file
     output_file = output_prefix + "_" + chromosome
     
